@@ -1,11 +1,7 @@
 import express from 'express';
-
+import * as auth from '../controller/auth.js';
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.json({
-        data: "Hello from nodejs api welcome  routes"
-    });
-});
+router.get('/', auth.welcome);
 
 export default router;
