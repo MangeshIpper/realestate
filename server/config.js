@@ -1,1 +1,1 @@
-export const DATABASE = "mongodb://127.0.0.1:27017/realestate";
+export const DATABASE = "mongodb://localhost:27017/realestate";
